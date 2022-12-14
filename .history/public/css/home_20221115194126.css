@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgb(255, 255, 255) 0px,
+      rgb(255, 255, 255) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgb(255, 255, 255) 0px,
+      rgb(255, 255, 255) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    linear-gradient(90deg, rgba(213, 211, 217, 0.33), rgba(213, 211, 217, 0.33));
+  position: relative;
+}
+::selection {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+}
+
+.header-content {
+  width: 100%;
+  height: calc(100vh);
+  background-image: url(../img/header-img.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}

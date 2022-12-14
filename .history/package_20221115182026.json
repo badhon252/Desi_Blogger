@@ -1,0 +1,11 @@
+{
+  "name": "desi_blogger",
+  "version": "1.0.0",
+  "description": "This site is made for Deshi coders and tech savvy people's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khalid Hossain & Razia Sultana Dolon",
+  "license": "ISC"
+}
